@@ -36,6 +36,7 @@ int main()
 		player.playerPreference.difficultyLevel = 2;
 
 		jsonParser.WriteToFile("exmaple.txt", player);
+		jsonParser.ReadFromFile("exmaple.txt");
 
 		cout << "Please, enter your full name: ";
 		getline(cin, value);
