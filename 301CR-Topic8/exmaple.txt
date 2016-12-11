@@ -1,0 +1,28 @@
+{
+"id":1,
+"name":"banzsolt",
+"dateOfBirth":1481419686,
+"country":"UK",
+"email":"banzsolt94@gmail.com",
+"gamedata": { 
+"scoreInLevels": [ 
+10,
+11,
+12,
+12,
+10,
+10,
+10
+],
+"currentLevel": 5,
+"remainingLives": 2,
+"bulletsCount": 3424,
+"maxLevelReached": 7 
+},
+"preference": { 
+"language":"english",
+"volumeLevel":2,
+"graphicQuality":"1920x1080",
+"difficultyLevel":2
+}
+}
