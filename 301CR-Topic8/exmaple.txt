@@ -1,28 +1,28 @@
 {
-"id":1,
-"name":"banzsolt",
-"dateOfBirth":1481457117,
-"country":"UK",
-"email":"banzsolt94@gmail.com",
-"gamedata": { 
-"scoreInLevels": [ 
-10,
-11,
-12,
-12,
-10,
-10,
-10
-],
-"currentLevel": 5,
-"remainingLives": 2,
-"bulletsCount": 3424,
-"maxLevelReached": 7 
-},
-"preference": { 
-"language":"english",
-"volumeLevel":2,
-"graphicQuality":"1920x1080",
-"difficultyLevel":2
-}
+    "id": "1",
+    "name": "banzsolt",
+    "dateOfBirth": "1481544682",
+    "country": "UK",
+    "email": "banzsolt94@gmail.com",
+    "gamedata": {
+        "scoreInLevels": [
+            "10",
+            "11",
+            "12",
+            "12",
+            "10",
+            "10",
+            "10"
+        ],
+        "currentLevel": "5",
+        "remainingLives": "2",
+        "bulletsCount": "3424",
+        "maxLevelReached": "7"
+    },
+    "preference": {
+        "language": "english",
+        "volumeLevel": "2",
+        "graphicQuality": "1920x1080",
+        "difficultyLevel": "2"
+    }
 }
