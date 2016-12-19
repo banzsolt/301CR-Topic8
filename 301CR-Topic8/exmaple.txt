@@ -1,7 +1,7 @@
 {
     "id": "1",
-    "name": "banzsolt",
-    "dateOfBirth": "1481544682",
+    "name": "banzsolt-willtesttoread",
+    "dateOfBirth": "1482173032",
     "country": "UK",
     "email": "banzsolt94@gmail.com",
     "gamedata": {
@@ -14,7 +14,7 @@
             "10",
             "10"
         ],
-        "currentLevel": "5",
+        "currentLevel": "15",
         "remainingLives": "2",
         "bulletsCount": "3424",
         "maxLevelReached": "7"

@@ -20,7 +20,7 @@ int main()
 	{
 		list<int> scoreInLevels = { 10, 11, 12, 12, 10, 10, 10 };
 		Player player = Player();
-		player.name = "banzsolt";
+		player.name = "banzsolt-willwritethisout";
 		player.id = 1;
 		player.dateOfBirth = time(0);
 		player.country = "UK";
@@ -35,13 +35,21 @@ int main()
 		player.playerPreference.graphicQuality = "1920x1080";
 		player.playerPreference.difficultyLevel = 2;
 
-		jsonParser.WriteToFile("exmaple.txt", player);
-		jsonParser.ReadFromFile("exmaple.txt");
-
-		cout << "Please, enter your full name: ";
+		cout << "Options: " << endl;
+		cout << "         0  - Exit" << endl;
+		cout << "         1  - Write to a file" << endl;
+		cout << "         2  - Read from a file" << endl;
 		getline(cin, value);
-		cout << value;
-		getline(std::cin, value);
+
+		if (value == "1")
+		{
+			jsonParser.WriteToFile("exmaple.txt", player);
+		}
+		else if(value == "2")
+		{
+			jsonParser.ReadFromFile("exmaple.txt");
+		}
+
 	}
 
 	

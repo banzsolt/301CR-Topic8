@@ -66,6 +66,8 @@ Player JsonParser::ReadFromFile(string filename)
 	pt::ptree root;
 	pt::read_json(filename, root);
 
+	pt::write_json(std::cout, root);
+
 	Player result = Player();
 
 	result.id = root.get<int>("id", 0);
